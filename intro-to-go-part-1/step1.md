@@ -4,7 +4,7 @@
 
 This is an _example_ of creating a scenario and running a **command**
 
-```go
+```golang
 package main
 
 import "fmt"

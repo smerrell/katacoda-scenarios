@@ -22,5 +22,13 @@
   },
   "backend": {
     "imageid": "go"
+  },
+  "assets": {
+    "client": [
+     {
+       "file": "app.go",
+       "target": "~/"
+     }
+    ]
   }
 }
