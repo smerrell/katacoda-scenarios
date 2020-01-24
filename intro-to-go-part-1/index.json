@@ -4,16 +4,26 @@
   "difficulty": "Beginner",
   "time": "1 hour",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Printing Output",
-      "text": "step1.md"
-    }],
+    "steps": [
+      {
+        "title": "Step 1 - Printing Output",
+        "text": "step1.md"
+      }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "app.go",
+          "target": "~/"
+        }
+      ]
     }
   },
   "environment": {
@@ -22,13 +32,5 @@
   },
   "backend": {
     "imageid": "go"
-  },
-  "assets": {
-    "client": [
-     {
-       "file": "app.go",
-       "target": "~/"
-     }
-    ]
   }
 }
